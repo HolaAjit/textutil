@@ -1,0 +1,35 @@
+<> </> -- jxs fragment used write html tag in it
+input img tag all single tag need to be closed
+change class to className
+
+With JSX, we can write HTML-like code right inside our JavaScript code. 
+It's a mix of JavaScript and HTML. 
+This makes it more convenient because we can write both the structure of the webpage 
+and the logic or functionality in the same place.
+
+Components let you split the UI into independent, reusable pieces
+Conceptually, components are like JavaScript functions. 
+They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+
+
+Props is short for "properties," 
+and it's like giving special instructions or information to a component in React.
+Props are used to pass information from one component to another.
+They allow us to make components more flexible and reusable
+Props can be used to pass all sorts of information to components, like text, numbers, or even functions
+
+usestate is built in hook that allows functional components to manage state
+State is like a container or a box where a component
+can store and remember information that can change over time
+
+useState is a hook in React that enables functional components to have
+and manage their own state variables.
+
+in class based component we can directly use this.state to set state
+but in functional based component we cannot do so
+hooks can access class based features w/o making class
+
+Event Handling is like having a way to respond to actions or events that happen 
+in our components.
+It allows us to make our components interactive, handle user interactions,
+and perform specific actions based on those events.
