@@ -1,6 +1,16 @@
+npm install -g create-react-app ---> install globaly (npm will download create-react-app)
+npm init react-app my-app
+
+npx create-react-app my-app --> to create app (w/o downloading create-react-app)(use latest )
+npx always uses the latest version
+
+npm start --> to start project
+
+npm install react-router-dom--> Install React_Router_Dom pkg to enable routing
+
 <> </> -- jxs fragment used write html tag in it
 input img tag all single tag need to be closed
-change class to className
+change class to className for to htmlFor
 
 With JSX, we can write HTML-like code right inside our JavaScript code. 
 It's a mix of JavaScript and HTML. 
@@ -9,7 +19,8 @@ and the logic or functionality in the same place.
 
 Components let you split the UI into independent, reusable pieces
 Conceptually, components are like JavaScript functions. 
-They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+They accept arbitrary inputs (called “props”) and return React elements 
+describing what should appear on the screen.
 
 
 Props is short for "properties," 
@@ -33,3 +44,4 @@ Event Handling is like having a way to respond to actions or events that happen
 in our components.
 It allows us to make our components interactive, handle user interactions,
 and perform specific actions based on those events.
+
